@@ -48,7 +48,7 @@ puts sum_array([1,2,3])
 def add_s(array)
   array.each_with_index.collect { |x,i|
     if i != 1 
-      x << "s"
+      x + "s"
     end
   }
   
